@@ -23,7 +23,7 @@ public class FileChangeLastModifiedTimeApp {
             }
         }
 
-        // set to next month
+        // set to next two months
         Calendar cal = Calendar.getInstance();
         cal.add(Calendar.MONTH, 2);
         myFile.setLastModified(cal.getTimeInMillis());
